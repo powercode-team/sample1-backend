@@ -1,0 +1,11 @@
+{
+  "name": "Hire4Friends",
+  "version": "0.0.1",
+  "description": "API documentation for Hire4Friends",
+  "title": "Hire4Friends",
+  "template": {
+    "forceLanguage": "en",
+    "withCompare": false,
+    "withGenerator": false
+  }
+}

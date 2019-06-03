@@ -1,0 +1,19 @@
+stages:
+  - deploy
+
+deploy:
+  only:
+    - master
+  script:
+    - cd $WEBROOT
+    - git checkout --force master
+    - git reset --hard HEAD
+    - git pull origin master
+    - yarn install
+    - yarn up
+    - yarn build:0
+    - pm2 restart $(basename "$PWD")
+    - yarn apidoc
+  stage: deploy
+  tags:
+    - deploy

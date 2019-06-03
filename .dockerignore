@@ -1,0 +1,12 @@
+.git/
+node_modules/
+.idea/
+.editorconfig
+.gitignore
+.gitlab-ci.yml
+README.MD
+Dockerfile
+.dockerignore
+build
+.env.example
+docs

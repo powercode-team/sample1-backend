@@ -19,7 +19,7 @@
     "bluebird": "3.5.2",
     "dotenv": "6.1.0",
     "email-validator": "2.0.4",
-    "handlebars": "4.0.12",
+    "handlebars": "4.7.7",
     "knex": "0.15.2",
     "knex-migrate": "1.7.0",
     "koa": "2.5.3",
